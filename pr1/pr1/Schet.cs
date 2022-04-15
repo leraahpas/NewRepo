@@ -28,10 +28,6 @@ namespace pr1
             this.symma = symma;
         }
 
-        public Schet (string name) : this(name, 18, 10)
-        {
-
-        }
-        //1
+     
     }
 }
