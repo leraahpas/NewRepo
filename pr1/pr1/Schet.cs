@@ -28,6 +28,11 @@ namespace pr1
             this.symma = symma;
         }
 
-     
+        public Schet()
+        {
+            this.name = "";
+            this.nomer = 0;
+            this.symma = 0.0;
+        }
     }
 }

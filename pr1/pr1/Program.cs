@@ -9,22 +9,25 @@ namespace pr1
             bool Exit = false;
             do
             {
-                Console.WriteLine("1 - первое задание. ");
-                Console.WriteLine("2 - второе задание.");
+                Console.WriteLine("1 - создание класса ");
+                Console.WriteLine("2 - выход");
                 string vibor = Console.ReadLine();
                 switch (vibor)
                 {
                     
 
-                    case "2":
+                    case "1":
                         Schet B = new Schet();
                         B.Imput();
+                        break;
+                    case "2":
+                        Exit = true;
                         break;
                 }
                 break;
             }
             while (Exit != true);
-            Console.ReadKey()
+            Console.ReadKey();
         }
     }
 }
